@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { PostProvider, usePosts, createRandomPost } from "./PostContext";
+import Test from "./Test";
 
 function App() {
   // Whenever `isFakeDark` changes, we toggle the `fake-dark-mode` class on the HTML element (see in "Elements" dev tool).
@@ -126,6 +127,8 @@ function List() {
         </li>
       ))}
     </ul>
+
+    //{<Test />}
   );
 }
 
